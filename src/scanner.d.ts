@@ -1,3 +1,4 @@
+/// <reference path="../extra.d.ts" />
 /// <reference types="node" />
 import * as EventEmitter from 'events';
 export declare class ScanProvider {

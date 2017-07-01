@@ -135,7 +135,7 @@ var Camera = (function () {
             return __generator(this, function (_a) {
                 switch (_a.label) {
                     case 0: return [4 /*yield*/, this._wrapErrors(function () { return __awaiter(_this, void 0, void 0, function () {
-                            var access, _i, _a, stream;
+                            var access, stream, _i, _a;
                             return __generator(this, function (_b) {
                                 switch (_b.label) {
                                     case 0: return [4 /*yield*/, navigator.mediaDevices.getUserMedia({ video: true })];

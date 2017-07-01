@@ -1,4 +1,5 @@
 "use strict";
+/// <reference path="../extra.d.ts" />
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
         ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
@@ -46,7 +47,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var EventEmitter = require("events");
-var ZXing = require("./zxing");
+var ZXing = require('./zxing');
 var Visibility = require("visibilityjs");
 var StateMachine = require("fsm-as-promised");
 var zxing = ZXing();

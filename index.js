@@ -1,4 +1,5 @@
 "use strict";
+/// <reference path="./extra.d.ts" />
 Object.defineProperty(exports, "__esModule", { value: true });
 require("webrtc-adapter");
 var scanner_1 = require("./src/scanner");

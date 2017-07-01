@@ -1,5 +1,6 @@
 export declare function cameraName(label: any): any;
 export declare class MediaError extends Error {
+    type: any;
     constructor(type: any);
 }
 export default class Camera {
