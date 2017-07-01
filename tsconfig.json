@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "allowJs": true,
+    "declaration": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noImplicitAny": false,
+    "lib": [
+      "dom",
+      "es2015"
+    ]
+  },
+  "files": [
+    "index.ts"
+  ],
+  "exclude": [
+    "./src/zxing.js"
+  ]
+}
