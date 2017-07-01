@@ -5,6 +5,7 @@
     "declaration": true,
     "suppressImplicitAnyIndexErrors": false,
     "noImplicitAny": true,
+    "rootDir": "./",
     "lib": [
       "dom",
       "es2015"
