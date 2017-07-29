@@ -116,11 +116,8 @@ var Camera = (function () {
             var devices;
             return __generator(this, function (_a) {
                 switch (_a.label) {
-                    case 0: return [4 /*yield*/, this._ensureAccess()];
+                    case 0: return [4 /*yield*/, navigator.mediaDevices.enumerateDevices()];
                     case 1:
-                        _a.sent();
-                        return [4 /*yield*/, navigator.mediaDevices.enumerateDevices()];
-                    case 2:
                         devices = _a.sent();
                         return [2 /*return*/, devices
                                 .filter(function (d) { return d.kind === 'videoinput'; })
