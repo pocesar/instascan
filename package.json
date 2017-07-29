@@ -28,11 +28,11 @@
   "homepage": "https://github.com/schmich/instascan",
   "dependencies": {
     "events": "^1.1.1",
-    "fsm-as-promised": "^0.13.0",
-    "visibilityjs": "^1.2.3",
-    "webrtc-adapter": "^1.4.0"
+    "fsm-as-promised": "^0.14.4",
+    "visibilityjs": "^1.2.4",
+    "webrtc-adapter": "^4.2.1"
   },
   "devDependencies": {
-    "@types/node": "^8.0.7"
+    "@types/node": "^8.0.17"
   }
 }
